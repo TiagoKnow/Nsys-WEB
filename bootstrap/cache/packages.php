@@ -20,4 +20,26 @@
       0 => 'JeroenNoten\\LaravelAdminLte\\ServiceProvider',
     ),
   ),
+  'jenssegers/date' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Jenssegers\\Date\\DateServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'Date' => 'Jenssegers\\Date\\Date',
+    ),
+  ),
+  'consoletvs/charts' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'ConsoleTVs\\Charts\\ChartsServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'Charts' => 'ConsoleTVs\\Charts\\Facades\\Charts',
+    ),
+  ),
 );

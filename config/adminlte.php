@@ -154,11 +154,11 @@ return [
                                         ],
                                         [
                                             'text' => 'Consulta',
-                                            'url'  => 'faturamento/clientes',
+                                            'url'  => 'faturamento/listar',
                                         ],
                                     ],
                                 ],
-                                
+
                                 [
                                     'text' => 'Contratos',
                                     'url'  => '#',
@@ -194,6 +194,26 @@ return [
                 [
                     'text' => 'Vendas',
                     'url'  => '#',
+                    'submenu' => [
+                        [
+                            'text' => 'Contas a pagar',
+                            'url'  => '#',
+                        ],
+                        [
+                            'text'    => 'Contas a receber',
+                            'url'     => '#',
+                            'submenu' => [
+                                [
+                                    'text' => 'Level Three',
+                                    'url'  => '#',
+                                ],
+                                [
+                                    'text' => 'Level Three',
+                                    'url'  => '#',
+                                ],
+                            ],
+                        ],
+                    ],
                 ],
                 [
                     'text'    => 'Contabilidade',
