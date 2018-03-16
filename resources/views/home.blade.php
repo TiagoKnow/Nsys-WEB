@@ -195,4 +195,20 @@
             </div>
             <!-- /.box-footer -->
           </div>
+
+
+
+        {!! Charts::styles() !!}
+        <!-- Main Application (Can be VueJS or other JS framework) -->
+        <div class="box">
+            <div class="box-header with-border">
+                <div class="app">
+                    {!! $chart->html() !!}
+                </div>
+            </div>
+        </div>
+
+        <!-- End Of Main Application -->
+        {!! Charts::scripts() !!}
+        {!! $chart->script() !!}
 @stop
