@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Charts; // adicionei essa para teste
+use App\Os;
 
 class HomeController extends Controller
 {
@@ -24,6 +25,11 @@ class HomeController extends Controller
      */
     public function index()
     {
+      $os = Os::all();
+
+      var_dump($os);
+
+
       $chart = Charts::multi('areaspline', 'highcharts')
             // Setup the chart settings
             ->title("Resumo do processamento")

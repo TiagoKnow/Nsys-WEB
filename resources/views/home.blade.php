@@ -208,6 +208,7 @@
             </div>
         </div>
 
+
         <!-- End Of Main Application -->
         {!! Charts::scripts() !!}
         {!! $chart->script() !!}

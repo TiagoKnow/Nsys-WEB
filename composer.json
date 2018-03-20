@@ -55,5 +55,9 @@
         "preferred-install": "dist",
         "sort-packages": true,
         "optimize-autoloader": true
+    },
+    "require": {
+        "phalcon/devtools": "dev-master"
     }
+
 }

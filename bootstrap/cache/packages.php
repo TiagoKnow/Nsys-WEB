@@ -1,23 +1,20 @@
 <?php return array (
+  'consoletvs/charts' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'ConsoleTVs\\Charts\\ChartsServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'Charts' => 'ConsoleTVs\\Charts\\Facades\\Charts',
+    ),
+  ),
   'fideloper/proxy' => 
   array (
     'providers' => 
     array (
       0 => 'Fideloper\\Proxy\\TrustedProxyServiceProvider',
-    ),
-  ),
-  'laravel/tinker' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Laravel\\Tinker\\TinkerServiceProvider',
-    ),
-  ),
-  'jeroennoten/laravel-adminlte' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'JeroenNoten\\LaravelAdminLte\\ServiceProvider',
     ),
   ),
   'jenssegers/date' => 
@@ -31,15 +28,18 @@
       'Date' => 'Jenssegers\\Date\\Date',
     ),
   ),
-  'consoletvs/charts' => 
+  'jeroennoten/laravel-adminlte' => 
   array (
     'providers' => 
     array (
-      0 => 'ConsoleTVs\\Charts\\ChartsServiceProvider',
+      0 => 'JeroenNoten\\LaravelAdminLte\\ServiceProvider',
     ),
-    'aliases' => 
+  ),
+  'laravel/tinker' => 
+  array (
+    'providers' => 
     array (
-      'Charts' => 'ConsoleTVs\\Charts\\Facades\\Charts',
+      0 => 'Laravel\\Tinker\\TinkerServiceProvider',
     ),
   ),
 );
